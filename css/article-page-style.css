@@ -1,0 +1,319 @@
+body {
+	margin: 0;
+	background-color: #e8ebef;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+}
+.menu-md {
+	display: flex;
+	position: fixed;
+	z-index: 1;
+	background-color: #fff;
+	width: 100%;
+	height: 120px;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+	height: 50px;
+	width: 150px;
+	font-size: 31px;
+	color: black;
+	margin: 15px 0 0 0;
+}
+
+.login a {
+	padding: 7px 20px;
+	font-size: .7em;
+	background-color: #42a1f4;
+	color: #fff;
+	border-radius: 25px;
+	text-decoration: none;
+}
+
+.login a:hover {
+	background-color: #4397e0;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.navbar-md {
+	display: flex;
+	flex-direction: row;
+}
+
+.navs-md {
+	width: 550px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.navs-md {
+	list-style-type: none;
+}
+
+a.btn-nav {
+color: #42a1f4;
+font-family: arial;
+text-decoration: none;
+padding: 5px 20px;
+border-bottom: 3px solid white;
+display: inline-block;
+width: auto;
+transition: background .5s , color .5s , border .5s ;
+position: relative;
+}
+
+a.btn-nav:hover {
+color: black;
+border: none;
+border-bottom: 3px solid #42a1f4;
+}
+.search-nav {
+	width: 75px;
+}
+
+form {
+	position: relative;
+	left: 100%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 1s;
+	width: 45px;
+	height: 45px;
+	background: white;
+	box-sizing: border-box;
+	border-radius: 25px;
+	border: 2px solid #42a1f4;
+}
+
+input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40.5px;
+	line-height: 30px;
+	outline: 0;
+	border: 0;
+	display: none;
+	font-size: 1em;
+	border-radius: 20px;
+	padding: 0 20px;
+}
+
+.fa {
+	box-sizing: border-box;
+	padding: 10px;
+	width: 40.5px;
+	height: 40.5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 50%;
+	color: #42a1f4;
+	text-align: center;
+	font-size: 1.2em;
+	transition: all 1s;
+}
+
+form:hover {
+	width: 140px;
+	cursor: pointer;
+}
+
+form:hover input {
+	display: block;
+}
+
+form:hover .fa {
+	background: #07051a;
+	color: white;
+}
+.article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 15%;
+    width: 70%;
+	height: auto;
+	background-color: #fff;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+	margin-bottom: 5%; 
+}
+.article-photo{
+	margin-top: 15%;
+	width: 90%;
+	height: auto;
+}
+.img3{
+	background: url('../../The Soyle/img/main1.jpg');
+	height: 500px;
+	backface-visibility: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 120%;
+}
+.article-title{
+	width: 95%;
+    display: flex;
+    flex-direction: column;
+	margin-bottom: 4%;
+}
+.article-title p{
+	max-width: 95%;
+	font-size: 3em;
+}
+#author span{
+	color: #333333
+	font-size 1em;
+	color: #42a1f4;
+}
+#author span a{
+	text-decoration: none;
+	color: #333333;
+	margin-left: 3px;
+}
+#author span a:hover{
+	color: black;
+    border: none;
+    border-bottom: 1.5px solid #42a1f4;
+}
+#author{
+	margin-top: -3%;
+	display: inline-block;
+}
+#data{
+	font-size: 1em;
+	color: #42a1f4;
+}
+.article-text{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin-left: -16%;
+	margin-top: -5%;
+	border-bottom: 1px solid #42a1f4;
+}
+.article-text p{
+	font-size: 1.2em;
+	color: #242426;
+}
+#subtitle{
+	font-size: 1.4em;
+	color: black;
+	font-weight: bold;
+}
+.share{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-left: -45%;
+	margin-bottom: 5%;
+}
+.share p{
+	font-size: 1.2em;
+}
+.icons{
+	font-size: 1em;
+}
+.fab.fa-instagram{
+	font-size: 1.7em;
+	color: #42a1f4;
+}
+.fab.fa-instagram:hover{
+	color: #2e84d1;
+}
+.fab.fa-facebook-f{
+	margin-left: 4%;
+	font-size: 1.7em;
+	color: #42a1f4;
+}
+.fab.fa-facebook-f:hover{
+	color: #2e84d1;
+}
+.fab.fa-vk{
+	margin-left: 4%;
+	font-size: 1.7em;
+	color: #42a1f4;
+}
+.fab.fa-vk:hover{
+	color: #2e84d1;
+}
+.fab.fa-twitter-square{
+	margin-left: 4%;
+	font-size: 1.7em;
+	color: #42a1f4;
+}
+.fab.fa-twitter-square:hover{
+	color: #2e84d1;
+}
+.read-also{
+	display: flex;
+	flex-direction: column;
+	width: 86%;
+	margin-bottom: 5%;
+}
+.read-also p{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.more-articles{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.add-photo{
+	width: 220px;
+	height: 220px;
+	margin-bottom: 5%;
+}
+.img1{
+	background: url('../../The Soyle/img/portfolio2.jpg');
+	backface-visibility: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	border-radius: 2%;
+}
+.additional{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 33.3%;
+	background-color: #fff;
+	justify-content: center;
+	align-items: center;
+}
+.title-more{
+	margin-top: 3%; 
+	padding: 5px;
+}
+.title-more a{
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+}
+.title-more a:hover{
+	color: #2e84d1;
+}
+
+
+
