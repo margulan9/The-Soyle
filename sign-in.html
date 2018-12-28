@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <link rel="stylesheet" href="css/sign-in.css">
+    <script type="text/javascript" src="js/menu-js.js"></script>
 </head>
 <body>
 
@@ -21,11 +22,11 @@
 
         <div class="navbar-md">
             <ul class="navs-md">
-                <li><a href="main-page-soyle.html">Home</a></li>
-                <li><a href="#">Tests</a></li>
-                <li><a href="#">Translations</a></li>
-                <li><a href="#">Profiles</a></li>
-                <li><a href="sign-in.html">SIGN IN</a></li>
+                <li><a class="btn-nav" href="main-page-soyle.html">Home</a></li>
+                <li><a class="btn-nav" href="article-page.html">Tests</a></li>
+                <li><a class="btn-nav" href="article-page.html">Translations</a></li>
+                <li><a class="btn-nav" href="profile_main.html">Profiles</a></li>
+                <li><a class="btn-nav" href="sign-in.html">Sign in</a></li>
             </ul>
             <div class="search-nav">
                 <form action="">
@@ -35,6 +36,20 @@
             </div>
         </div>
         
+    </div>
+
+    <div class="topnav">
+       <a href="#home" class="active">The Soyle</a>
+       <div id="myLinks">
+            <a href="main-page-soyle">Home</a>
+            <a href="#contact">Tests</a>
+            <a href="#about">Translations</a>
+            <a href="#about">Profiles</a>
+            <a href="sign-in.html">Sign in</a>
+       </div>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+       </a>
     </div>
 
     <div class="main">
@@ -125,6 +140,7 @@
 
     <!-- JS -->
     <script src="jquery/jquery.min.js"></script>
-    <script src="js/sign-in.js"></script>
+    
+
 </body>
 </html>
